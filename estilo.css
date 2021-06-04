@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+  
+    display: flex;
+    justify-content: center;
+    background-color: darkslateblue;
+    
+}
+
+
+.marco{
+    background-color: #ffffff;
+    width: 75%;    
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+
+
+
+.autor>a>img{
+        width: 140px; height: 140px;       
+      }
+
+     
+     
+h4 {display: flex;
+  justify-content: center;
+  
+  text-align:center
+}
+
+
+.pintor1>p>img{
+    width: 350px;
+    height: 310px;
+}
+.pintor1>p{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.sesion{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;      
+    align-items: center;
+}
+
+.somos{
+    font-style: italic;
+    text-indent: 40px;
+    font-size: 20;
+}
+
+.contacto{
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.row>.pcontacto{
+    color:darkblue;
+    font-style: normal ;
+    text-indent: 20px;
+    text-decoration: underline;
+}
+
+ /* DE AQUI PARA ABAJO EL LOGIIIIIIN */
+ .marco1{
+  background-color: #ffffff;
+  width: 75%;    
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+form{
+  border: 3px solid #f1f1f1;
+
+}
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button {
+  background-color: darkslateblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.cancelar {
+  width: auto;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.as>a>button{
+  width: auto;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  background-color: aqua;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+}
+
+.contenedor {
+  padding: 16px;
+}
+
+ /* ------------------------------------------- */
+
+.media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.autor{
+    display: flex;
+    justify-content: center;
+}
+
+.autor>img{
+    width: 200px;   
+    height: 200px;
+    
+
+}
+
+.Felicidades>img{
+  width: 500px;
+  height: 200px;
+}
+
+.Felicidades{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.exito>p{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 40px;
+  color: darkblue;
+  font-style: oblique;
+}
+
+.info1{
+  display: flex;
+  justify-content: center;
+}
+
+.info1>img{
+  padding-top: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.Texto1>h1{
+  text-decoration: underline;
+  padding-top: 20px;
+  text-indent: 40px;
+}
+
+.Texto1>p{
+  text-indent: 40px;
+}
+
+
+
+
+
+
+
+table {
+  margin: 1%;
+  padding: 100%;
+  width: 100%;
+	
+}
+
+
+
+td {
+  border: orange 2px solid;
+}
+
+h6{
+  font-size: 30px;
+  
+}
+
+.pintores{
+  display: flex;  
+  justify-content: center;
+}
+
+.buscar{  
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.buscar>input{
+  width: 50%;
+}
+
+.vender{
+  padding-top: 20px;
+  width: 100%;
+}
+
+.vender>h5{
+  display: flex;
+  justify-content: center;
+}
+.va{
+  width: 102%;
+
+}
+
+.denegado>p{
+  font-size: 60px;
+  font-weight: bolder;
+  font-style: italic;
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+
+}
+.rechazado{
+  display: flex;
+  justify-content: center;
+}
+
+.formulario{
+  padding-top: 5px;
+}
+
+.logeado{
+  display: flex;
+  justify-content: center;
+}
+
+.logeado>p{
+  color:darkslateblue;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.sesion>h5{
+  font-size: 35px;
+  font-style: italic;
+  color: black;
+  
+}
+
+
+body{margin:0px;
+				padding:0px;
+  
+}
+#canvas{
+  border: 1px solid  #000;
+  box-shadow: 2px 2px 10px #333;
+}
+#botonera{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.botones{
+  display: inline;
+  height: 32px;
+  width: 32px;
+}
+#rellenoFondo{
+  background: #333;
+  border: 2px solid #000;
+  border-radius: 5px 5px 5px 5px;
+  height: 50px;
+  margin-bottom: 10px;
+  width: 50px;
+  
+}
